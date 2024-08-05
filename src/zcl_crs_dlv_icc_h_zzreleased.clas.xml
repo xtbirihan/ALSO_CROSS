@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CRS_DLV_ICC_H_ZZRELEASED</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ICC Enhancement Reference Documents Delivery Header</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>READ_MARA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read data from mara table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SO_BOM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business Object - Management</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SO_BOM</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Business Object - Management</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SO_BOM</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Business Object - Management</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SO_BOM</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Business Object - Management</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SO_BOM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Business Object - Management</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_KNA1</CMPNAME>
+     <SCONAME>IV_CUST_NO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Customer Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_KNA1</CMPNAME>
+     <SCONAME>RS_KNA1</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Data in Customer Master</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_MARA</CMPNAME>
+     <SCONAME>IV_PRODUCTNO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Material Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_MARA</CMPNAME>
+     <SCONAME>RS_MARA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Material Data</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

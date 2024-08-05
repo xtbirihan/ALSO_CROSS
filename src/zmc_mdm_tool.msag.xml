@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMC_MDM_TOOL</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;&amp;&amp;&amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Please enter valid number!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Default value reading error!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Business partner &amp;1 is blocked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Assignment for warehouse number &amp;1 not maintained</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Leading blanks not allowed for product number &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Product number &amp;1 contains disallowed special characters</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Apo Product number reading error!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>&quot;Party entitled to dispose&quot; not maintained as business partner</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Product &amp;1 does not exist!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Fill All Required Fields</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Slotting status not allowed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Dispatchable Value is not allowed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Variant paramater not found!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Variant value not found!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Authorization Error!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Slotting saved.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Slotting activated.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Fill out all required entry fields.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Changes made to &amp;1 packaging specifications</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Packaging specification &amp;1 has been created</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Product &amp;1 saved successfully.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Identification number must be 001. Please maintain with correct value!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Packspeck was not created, slotting will not be executed!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Please enter proper values for packspec!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Piece quantity is not equal to 1!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Please enter valid tab value!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Identification tab value has already entered!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>Please maintain master carton dimensions!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>Default values are not defined for warehouse number &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Product successully saved.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Material text value has not found!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_MDM_TOOL</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Bulk Storage indicator &amp;1 not defined for warehouse &amp;2</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

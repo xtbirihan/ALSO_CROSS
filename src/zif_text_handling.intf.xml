@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_TEXT_HANDLING</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Text Handling</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_SHLP</CMPNAME>
+     <SCONAME>CS_SHLP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Description of Search Help</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_TEXT</CMPNAME>
+     <SCONAME>IV_TEXT_ID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_TEXT</CMPNAME>
+     <SCONAME>IV_TEXT_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Text Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXTS_FROM_BP</CMPNAME>
+     <SCONAME>IV_BUSINESS_PARTNER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business Partner Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXTS_FROM_PROD</CMPNAME>
+     <SCONAME>IV_ENTITLED</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Party Entitled to Dispose</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXTS_FROM_PROD</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TEXTS_FROM_PROD</CMPNAME>
+     <SCONAME>IV_PRODUCT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Business Partner Number</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

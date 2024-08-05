@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CORE_LTAP</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Class for storing ltap structure</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_CORE_LTAP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class for storing ltap structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_CORE_LTAP</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Class for storing ltap structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_CORE_LTAP</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Class for storing ltap structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_CORE_LTAP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Class for storing ltap structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_CORE_LTAP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Class for storing ltap structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_LTAP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_LTAP</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_LTAP</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_LTAP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_LTAP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_LTAP_CANCELLED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_LTAP_CANCELLED</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_LTAP_CANCELLED</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_LTAP_CANCELLED</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_LTAP_CANCELLED</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SUOM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Alternative Unit of Measure for Stockkeeping Unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SUOM</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Alternative Unit of Measure for Stockkeeping Unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SUOM</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Alternative Unit of Measure for Stockkeeping Unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SUOM</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Alternative Unit of Measure for Stockkeeping Unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SUOM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Alternative Unit of Measure for Stockkeeping Unit</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_CORE_LTAP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class for storing ltap structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_CORE_LTAP</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Class for storing ltap structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_CORE_LTAP</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Class for storing ltap structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_CORE_LTAP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Class for storing ltap structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_CORE_LTAP</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Class for storing ltap structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_LTAP</CMPNAME>
+     <SCONAME>RS_LTAP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_LTAP</CMPNAME>
+     <SCONAME>RS_LTAP</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_LTAP</CMPNAME>
+     <SCONAME>RS_LTAP</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_LTAP</CMPNAME>
+     <SCONAME>RS_LTAP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_LTAP</CMPNAME>
+     <SCONAME>RS_LTAP</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_LTAP_CANCELLED</CMPNAME>
+     <SCONAME>RS_LTAP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_LTAP_CANCELLED</CMPNAME>
+     <SCONAME>RS_LTAP</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_LTAP_CANCELLED</CMPNAME>
+     <SCONAME>RS_LTAP</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_LTAP_CANCELLED</CMPNAME>
+     <SCONAME>RS_LTAP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_LTAP_CANCELLED</CMPNAME>
+     <SCONAME>RS_LTAP</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SUOM</CMPNAME>
+     <SCONAME>RV_SUOM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Alternative Unit of Measure for Stockkeeping Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SUOM</CMPNAME>
+     <SCONAME>RV_SUOM</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Alternative Unit of Measure for Stockkeeping Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SUOM</CMPNAME>
+     <SCONAME>RV_SUOM</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Alternative Unit of Measure for Stockkeeping Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SUOM</CMPNAME>
+     <SCONAME>RV_SUOM</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Alternative Unit of Measure for Stockkeeping Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SUOM</CMPNAME>
+     <SCONAME>RV_SUOM</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Alternative Unit of Measure for Stockkeeping Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_LTAP</CMPNAME>
+     <SCONAME>IS_LTAP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_LTAP</CMPNAME>
+     <SCONAME>IS_LTAP</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_LTAP</CMPNAME>
+     <SCONAME>IS_LTAP</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_LTAP</CMPNAME>
+     <SCONAME>IS_LTAP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_LTAP</CMPNAME>
+     <SCONAME>IS_LTAP</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_LTAP_CANCELLED</CMPNAME>
+     <SCONAME>IS_LTAP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_LTAP_CANCELLED</CMPNAME>
+     <SCONAME>IS_LTAP</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_LTAP_CANCELLED</CMPNAME>
+     <SCONAME>IS_LTAP</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_LTAP_CANCELLED</CMPNAME>
+     <SCONAME>IS_LTAP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_LTAP_CANCELLED</CMPNAME>
+     <SCONAME>IS_LTAP</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Task Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SUOM</CMPNAME>
+     <SCONAME>IV_SUOM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Alternative Unit of Measure for Stockkeeping Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SUOM</CMPNAME>
+     <SCONAME>IV_SUOM</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Alternative Unit of Measure for Stockkeeping Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SUOM</CMPNAME>
+     <SCONAME>IV_SUOM</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Alternative Unit of Measure for Stockkeeping Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SUOM</CMPNAME>
+     <SCONAME>IV_SUOM</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Alternative Unit of Measure for Stockkeeping Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_SUOM</CMPNAME>
+     <SCONAME>IV_SUOM</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Alternative Unit of Measure for Stockkeeping Unit</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_MDM_MODEL</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Master data maintenance tooling MVC - Model</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Tote/MC</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>500</KEY>
+     <ENTRY>Time Zone of Warehouse</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S01</KEY>
+     <ENTRY>Store as MC</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S02</KEY>
+     <ENTRY>Store as PC</ENTRY>
+     <LENGTH>21</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>S03</KEY>
+     <ENTRY>Store as Tote</ENTRY>
+     <LENGTH>23</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Tote</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>500</KEY>
+       <ENTRY>Time Zone of Warehouse</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S01</KEY>
+       <ENTRY>Store as MC</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S02</KEY>
+       <ENTRY>Store as PC</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S03</KEY>
+       <ENTRY>Store as Tote</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Tote</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>500</KEY>
+       <ENTRY>Time Zone of Warehouse</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S01</KEY>
+       <ENTRY>Store as MC</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S02</KEY>
+       <ENTRY>Store as PC</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S03</KEY>
+       <ENTRY>Store as Tote</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Tote</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>500</KEY>
+       <ENTRY>Time Zone of Warehouse</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S01</KEY>
+       <ENTRY>Store as MC</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S02</KEY>
+       <ENTRY>Store as PC</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S03</KEY>
+       <ENTRY>Store as Tote</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Tote</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>500</KEY>
+       <ENTRY>Time Zone of Warehouse</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S01</KEY>
+       <ENTRY>Store as MC</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S02</KEY>
+       <ENTRY>Store as PC</ENTRY>
+       <LENGTH>21</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>S03</KEY>
+       <ENTRY>Store as Tote</ENTRY>
+       <LENGTH>23</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_VALUES_FROM_PRODUCT</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Field length 18</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_VALUES_FROM_PRODUCT</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Field length 18</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_VALUES_FROM_PRODUCT</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Field length 18</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_VALUES_FROM_PRODUCT</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Field length 18</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>FILL_VALUES_FROM_PRODUCT</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Field length 18</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SERIAL_OBLIGATION</CMPNAME>
+     <SCONAME>RS_SERIAL_OBLIGATION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Serial Numbers Check Table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_MATERIAL_MASTER_SINGLE</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Field length 18</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_MATERIAL_MASTER_SINGLE</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Field length 18</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_MATERIAL_MASTER_SINGLE</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Field length 18</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_MATERIAL_MASTER_SINGLE</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Field length 18</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_MATERIAL_MASTER_SINGLE</CMPNAME>
+     <SCONAME>IV_MATNR</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Field length 18</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_SCANNED_VALUE</CMPNAME>
+     <SCONAME>IV_SCANNED_VALUE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>SCAN VALUE</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_SCANNED_VALUE</CMPNAME>
+     <SCONAME>IV_SCANNED_VALUE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>SCAN VALUE</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_SCANNED_VALUE</CMPNAME>
+     <SCONAME>IV_SCANNED_VALUE</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>SCAN VALUE</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_SCANNED_VALUE</CMPNAME>
+     <SCONAME>IV_SCANNED_VALUE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>SCAN VALUE</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_SCANNED_VALUE</CMPNAME>
+     <SCONAME>IV_SCANNED_VALUE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>SCAN VALUE</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>READ_WAREHOUSE_DEFAULT_VALUES</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,1607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CORE_PTS_CAPACHECK</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Impl. &quot;Maximum Product Quantity per Bin Typ&quot;</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_ORDIM_QTY_TO_BIN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add Product Quantities from Open WT to Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_ORDIM_QTY_TO_BIN</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Add Product Quantities from Open WT to Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_ORDIM_QTY_TO_BIN</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Add Product Quantities from Open WT to Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_ORDIM_QTY_TO_BIN</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Add Product Quantities from Open WT to Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_ORDIM_QTY_TO_BIN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Add Product Quantities from Open WT to Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check Whether Maximum Quantity Reached</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Check Whether Maximum Quantity Reached</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Check Whether Maximum Quantity Reached</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Check Whether Maximum Quantity Reached</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Check Whether Maximum Quantity Reached</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check Whether Maximum Quantity Reached</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Check Whether Maximum Quantity Reached</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Check Whether Maximum Quantity Reached</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Check Whether Maximum Quantity Reached</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Check Whether Maximum Quantity Reached</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONV_MAX_QTY_UOM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert Maximum Quantity to Base Unit of Measure of Product</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONV_MAX_QTY_UOM</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Convert Maximum Quantity to Base Unit of Measure of Product</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONV_MAX_QTY_UOM</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Convert Maximum Quantity to Base Unit of Measure of Product</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONV_MAX_QTY_UOM</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Convert Maximum Quantity to Base Unit of Measure of Product</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONV_MAX_QTY_UOM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convert Maximum Quantity to Base Unit of Measure of Product</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determine Product Quantity on Destination</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Determine Product Quantity on Destination</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Determine Product Quantity on Destination</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Determine Product Quantity on Destination</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Determine Product Quantity on Destination</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determine Product Quantity on HU</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Determine Product Quantity on HU</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Determine Product Quantity on HU</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Determine Product Quantity on HU</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Determine Product Quantity on HU</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check whether it is neccessary to have a custom check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Check whether it is neccessary to have a custom check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Check whether it is neccessary to have a custom check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Check whether it is neccessary to have a custom check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Check whether it is neccessary to have a custom check</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DATA_ACCESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Helper Object for Data Access</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DATA_ACCESS</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Helper Object for Data Access</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DATA_ACCESS</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Helper Object for Data Access</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DATA_ACCESS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Helper Object for Data Access</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_DATA_ACCESS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Helper Object for Data Access</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_BIN_STOCK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Buffer for Product Qty on Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_BIN_STOCK</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Buffer for Product Qty on Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_BIN_STOCK</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Buffer for Product Qty on Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_BIN_STOCK</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Buffer for Product Qty on Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_BIN_STOCK</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Buffer for Product Qty on Storage Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_HU_MATQTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Buffer for Product Qty on HUs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_HU_MATQTY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Buffer for Product Qty on HUs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_HU_MATQTY</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Buffer for Product Qty on HUs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_HU_MATQTY</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Buffer for Product Qty on HUs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_HU_MATQTY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Buffer for Product Qty on HUs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_LPTYP_MAXQTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Buffer for DB Table &quot;Maximum Quantity per Bin Type&quot;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_LPTYP_MAXQTY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Buffer for DB Table &quot;Maximum Quantity per Bin Type&quot;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_LPTYP_MAXQTY</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Buffer for DB Table &quot;Maximum Quantity per Bin Type&quot;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_LPTYP_MAXQTY</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Buffer for DB Table &quot;Maximum Quantity per Bin Type&quot;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_LPTYP_MAXQTY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Buffer for DB Table &quot;Maximum Quantity per Bin Type&quot;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_MESSAGES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table with BAPI Return Information</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_MESSAGES</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Table with BAPI Return Information</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_MESSAGES</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Table with BAPI Return Information</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_MESSAGES</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Table with BAPI Return Information</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_MESSAGES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table with BAPI Return Information</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ORDIM_BIN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table: Warehouse Tasks Open</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ORDIM_BIN</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Table: Warehouse Tasks Open</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ORDIM_BIN</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Table: Warehouse Tasks Open</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ORDIM_BIN</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Table: Warehouse Tasks Open</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ORDIM_BIN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table: Warehouse Tasks Open</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ORDIM_O</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Open Warehouse Task in Buffer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ORDIM_O</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Open Warehouse Task in Buffer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ORDIM_O</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Open Warehouse Task in Buffer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ORDIM_O</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Open Warehouse Task in Buffer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MT_ORDIM_O</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Open Warehouse Task in Buffer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BIN_LOC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BIN_LOC</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BIN_LOC</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BIN_LOC</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_BIN_LOC</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LGNUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LGNUM</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LGNUM</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LGNUM</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LGNUM</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Number</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LPTYP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Bin Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LPTYP</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Storage Bin Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LPTYP</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Storage Bin Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LPTYP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Storage Bin Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_LPTYP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Storage Bin Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select Maximum Quantity of Produt per Storage Bin Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Select Maximum Quantity of Produt per Storage Bin Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Select Maximum Quantity of Produt per Storage Bin Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Select Maximum Quantity of Produt per Storage Bin Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Select Maximum Quantity of Produt per Storage Bin Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPD_QTY_BUFFER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add Qty from Transient WTs into the Buffer for Qty on Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPD_QTY_BUFFER</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Add Qty from Transient WTs into the Buffer for Qty on Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPD_QTY_BUFFER</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Add Qty from Transient WTs into the Buffer for Qty on Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPD_QTY_BUFFER</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Add Qty from Transient WTs into the Buffer for Qty on Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPD_QTY_BUFFER</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Add Qty from Transient WTs into the Buffer for Qty on Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add Qty from Transient WTs into the Buffer for Qty on Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Add Qty from Transient WTs into the Buffer for Qty on Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Add Qty from Transient WTs into the Buffer for Qty on Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Add Qty from Transient WTs into the Buffer for Qty on Bin</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Add Qty from Transient WTs into the Buffer for Qty on Bin</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_ORDIM_QTY_TO_BIN</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_ORDIM_QTY_TO_BIN</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_ORDIM_QTY_TO_BIN</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_ORDIM_QTY_TO_BIN</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_ORDIM_QTY_TO_BIN</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_ORDIM_QTY_TO_BIN</CMPNAME>
+     <SCONAME>IS_ORDIM_O</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Tasks Open</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_ORDIM_QTY_TO_BIN</CMPNAME>
+     <SCONAME>IS_ORDIM_O</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Tasks Open</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_ORDIM_QTY_TO_BIN</CMPNAME>
+     <SCONAME>IS_ORDIM_O</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Tasks Open</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_ORDIM_QTY_TO_BIN</CMPNAME>
+     <SCONAME>IS_ORDIM_O</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Tasks Open</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_ORDIM_QTY_TO_BIN</CMPNAME>
+     <SCONAME>IS_ORDIM_O</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Tasks Open</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>CS_POSSIBLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Results Data of Pack Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>CS_POSSIBLE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Results Data of Pack Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>CS_POSSIBLE</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Results Data of Pack Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>CS_POSSIBLE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Results Data of Pack Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>CS_POSSIBLE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Results Data of Pack Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>CV_CAPA_OK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>CV_CAPA_OK</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>CV_CAPA_OK</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>CV_CAPA_OK</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>CV_CAPA_OK</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structure for Repacking Quantities and HUs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Structure for Repacking Quantities and HUs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Structure for Repacking Quantities and HUs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Structure for Repacking Quantities and HUs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Structure for Repacking Quantities and HUs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>IT_BIN_STOCK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Product Qtys on Destination Bin (including Dynamic Qty)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>IT_BIN_STOCK</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Product Qtys on Destination Bin (including Dynamic Qty)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>IT_BIN_STOCK</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Product Qtys on Destination Bin (including Dynamic Qty)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>IT_BIN_STOCK</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Product Qtys on Destination Bin (including Dynamic Qty)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>IT_BIN_STOCK</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Product Qtys on Destination Bin (including Dynamic Qty)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>IT_HU_MATQTY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Product Qtys on HU that is moved (incl. Dynamic Quantity)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>IT_HU_MATQTY</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Product Qtys on HU that is moved (incl. Dynamic Quantity)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>IT_HU_MATQTY</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Product Qtys on HU that is moved (incl. Dynamic Quantity)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>IT_HU_MATQTY</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Product Qtys on HU that is moved (incl. Dynamic Quantity)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY</CMPNAME>
+     <SCONAME>IT_HU_MATQTY</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Product Qtys on HU that is moved (incl. Dynamic Quantity)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>CS_POSSIBLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Results Data of Pack Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>CS_POSSIBLE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Results Data of Pack Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>CS_POSSIBLE</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Results Data of Pack Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>CS_POSSIBLE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Results Data of Pack Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>CS_POSSIBLE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Results Data of Pack Request</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>CV_CAPA_OK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>CV_CAPA_OK</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>CV_CAPA_OK</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>CV_CAPA_OK</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>CV_CAPA_OK</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IT_BIN_STOCK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Product Qtys on Destination Bin (including Dynamic Qty)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IT_BIN_STOCK</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Product Qtys on Destination Bin (including Dynamic Qty)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IT_BIN_STOCK</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Product Qtys on Destination Bin (including Dynamic Qty)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IT_BIN_STOCK</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Product Qtys on Destination Bin (including Dynamic Qty)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IT_BIN_STOCK</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Product Qtys on Destination Bin (including Dynamic Qty)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IV_MATID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IV_MATID</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IV_MATID</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IV_MATID</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IV_MATID</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IV_QUAN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Quantity Field</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IV_QUAN</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Quantity Field</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IV_QUAN</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Quantity Field</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IV_QUAN</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Quantity Field</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_MAXQTY_ENTRY</CMPNAME>
+     <SCONAME>IV_QUAN</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Quantity Field</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IO_DATA_ACCESS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Access for EI Capacheck MaxQty</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONV_MAX_QTY_UOM</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONV_MAX_QTY_UOM</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONV_MAX_QTY_UOM</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONV_MAX_QTY_UOM</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONV_MAX_QTY_UOM</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <SCONAME>IS_LGPLA_DEST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <SCONAME>IS_LGPLA_DEST</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <SCONAME>IS_LGPLA_DEST</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <SCONAME>IS_LGPLA_DEST</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <SCONAME>IS_LGPLA_DEST</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Storage Bin</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <SCONAME>IV_TO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Task</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <SCONAME>IV_TO</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Task</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <SCONAME>IV_TO</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Task</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <SCONAME>IV_TO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Task</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_DEST_BIN</CMPNAME>
+     <SCONAME>IV_TO</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Task</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <SCONAME>IV_GUID_HU</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <SCONAME>IV_GUID_HU</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <SCONAME>IV_GUID_HU</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <SCONAME>IV_GUID_HU</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <SCONAME>IV_GUID_HU</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <SCONAME>IV_GUID_HU_HIGH</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <SCONAME>IV_GUID_HU_HIGH</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <SCONAME>IV_GUID_HU_HIGH</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <SCONAME>IV_GUID_HU_HIGH</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DET_QTY_ON_HU</CMPNAME>
+     <SCONAME>IV_GUID_HU_HIGH</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Unique Internal Identification of a Handling Unit</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IS_DEST_LGPLA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Bins: Internal Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IS_DEST_LGPLA</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Storage Bins: Internal Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IS_DEST_LGPLA</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Storage Bins: Internal Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IS_DEST_LGPLA</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Storage Bins: Internal Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IS_DEST_LGPLA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Storage Bins: Internal Structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structure for Repacking Quantities and HUs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Structure for Repacking Quantities and HUs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Structure for Repacking Quantities and HUs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Structure for Repacking Quantities and HUs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Structure for Repacking Quantities and HUs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IS_T331</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Type Control</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IS_T331</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Storage Type Control</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IS_T331</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Storage Type Control</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IS_T331</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Storage Type Control</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IS_T331</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Storage Type Control</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IV_CAPA_OK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IV_CAPA_OK</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IV_CAPA_OK</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IV_CAPA_OK</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IV_CAPA_OK</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IV_SAME_BIN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>WT to be Created on Same Bin (e.g. Repack on Same Bin)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IV_SAME_BIN</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>WT to be Created on Same Bin (e.g. Repack on Same Bin)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IV_SAME_BIN</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>WT to be Created on Same Bin (e.g. Repack on Same Bin)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IV_SAME_BIN</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>WT to be Created on Same Bin (e.g. Repack on Same Bin)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IV_SAME_BIN</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>WT to be Created on Same Bin (e.g. Repack on Same Bin)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IV_TO</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Task</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IV_TO</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Task</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IV_TO</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Task</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IV_TO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Task</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>IV_TO</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Task</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>RV_CHECK_NEEDED</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>RV_CHECK_NEEDED</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>RV_CHECK_NEEDED</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>RV_CHECK_NEEDED</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_CHECK_REQUIRED</CMPNAME>
+     <SCONAME>RV_CHECK_NEEDED</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <SCONAME>/SCWM/CX_CORE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>WME Core: General Error Class</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <SCONAME>IV_LPTYP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Bin Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <SCONAME>IV_LPTYP</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Storage Bin Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <SCONAME>IV_LPTYP</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Storage Bin Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <SCONAME>IV_LPTYP</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Storage Bin Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SEL_MAX_QTY_LPTYP</CMPNAME>
+     <SCONAME>IV_LPTYP</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Storage Bin Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structure for Repacking Quantities and HUs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Structure for Repacking Quantities and HUs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Structure for Repacking Quantities and HUs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Structure for Repacking Quantities and HUs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER</CMPNAME>
+     <SCONAME>IS_REQUEST</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Structure for Repacking Quantities and HUs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER</CMPNAME>
+     <SCONAME>IV_OPERAND</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Single-Character Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER</CMPNAME>
+     <SCONAME>IV_OPERAND</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Single-Character Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER</CMPNAME>
+     <SCONAME>IV_OPERAND</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Single-Character Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER</CMPNAME>
+     <SCONAME>IV_OPERAND</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Single-Character Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER</CMPNAME>
+     <SCONAME>IV_OPERAND</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Single-Character Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_MATID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_MATID</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_MATID</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_MATID</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_MATID</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_OPERAND</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Single-Character Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_OPERAND</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Single-Character Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_OPERAND</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Single-Character Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_OPERAND</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Single-Character Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_OPERAND</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Single-Character Flag</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_QUAN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Quantity Field</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_QUAN</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Quantity Field</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_QUAN</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Quantity Field</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_QUAN</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Quantity Field</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_QUAN</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Quantity Field</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_UNIT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_UNIT</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_UNIT</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_UNIT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPD_QTY_BUFFER_ENTRY</CMPNAME>
+     <SCONAME>IV_UNIT</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Unit of Measure</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

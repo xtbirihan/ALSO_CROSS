@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ACID" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DESCRIPTION>Badi Implementation/SCWM/EX_ERP_MAPOUT_OD_CONFDEC</DESCRIPTION>
+  </asx:values>
+ </asx:abap>
+</abapGit>

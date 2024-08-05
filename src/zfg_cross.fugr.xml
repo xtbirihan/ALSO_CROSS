@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function Modules for Cross Processes</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLZFG_CROSS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_CROSS_LGPLA_MAINTAIN</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Clear Storage Type Max Capacity</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_LGNUM</PARAMETER>
+       <TYP>/SCWM/LGNUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_LAGP_EMPTY</PARAMETER>
+       <TYP>/SCWM/TT_LAGP_MAINTAIN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_LAGP_CAPA</PARAMETER>
+       <TYP>/SCWM/TT_LAGP_MAINTAIN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_LGNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Warehouse Number/Warehouse Complex</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_LAGP_EMPTY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type for Changing Storage Bins</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_LAGP_CAPA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type for Changing Storage Bins</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_CROSS_LGPLA_UPDATE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Update/Delete Storage Type Max Capacity</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_LGNUM</PARAMETER>
+       <TYP>/SCWM/LGNUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_LTAP_VB</PARAMETER>
+       <TYP>/SCWM/TT_LTAP_VB</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_ENTITLED</PARAMETER>
+       <TYP>/SCWM/DE_ENTITLED</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_LGNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Warehouse Number/Warehouse Complex</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_LTAP_VB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type: Warehouse Tasks Internal</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_ENTITLED</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Party Entitled to Dispose</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_CROSS_LGTYP_POST</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Automatically confirm waiting tasks from conveyer</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_LGNUM</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SCWM/LGNUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_LTAP_VB</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>/SCWM/TT_LTAP_VB</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_LGNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Warehouse Number/Warehouse Complex</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_LTAP_VB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table Type: Warehouse Tasks Internal</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_CRS_INSERT_PRE_ADVICED_SN</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Inserts pre-adviced serial numbers from DESADV</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_DELIVERYNUMBER</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR35</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_DELIVERYNUMBER_CREATED</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR10</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_CUSTOMER_ORDERNUMBER</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR10</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_SERIALNUMBERS</PARAMETER>
+       <TYP>ZTT_PRE_ADVICED_SN</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <TYP>BAPIRET1_T</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_DELIVERYNUMBER</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_DELIVERYNUMBER_CREATED</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_CUSTOMER_ORDERNUMBER</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_SERIALNUMBERS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_RETURN</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

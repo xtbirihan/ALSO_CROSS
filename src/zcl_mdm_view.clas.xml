@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_MDM_VIEW</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Master data maintenance tooling MVC - View</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>RETURN_USER_PARAMETER</CMPNAME>
+     <SCONAME>CV_ENTITLED_DESC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Last name of business partner (person)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>RETURN_USER_PARAMETER</CMPNAME>
+     <SCONAME>CV_ENTITLED_DESC</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Last name of business partner (person)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>RETURN_USER_PARAMETER</CMPNAME>
+     <SCONAME>CV_ENTITLED_DESC</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Last name of business partner (person)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>RETURN_USER_PARAMETER</CMPNAME>
+     <SCONAME>CV_ENTITLED_DESC</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Last name of business partner (person)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>RETURN_USER_PARAMETER</CMPNAME>
+     <SCONAME>CV_ENTITLED_DESC</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Last name of business partner (person)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SHOW_POPUP</CMPNAME>
+     <SCONAME>RV_CHANGE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Truth Value: True/False</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SHOW_POPUP</CMPNAME>
+     <SCONAME>RV_CHANGE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Truth Value: True/False</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SHOW_POPUP</CMPNAME>
+     <SCONAME>RV_CHANGE</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Truth Value: True/False</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SHOW_POPUP</CMPNAME>
+     <SCONAME>RV_CHANGE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Truth Value: True/False</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SHOW_POPUP</CMPNAME>
+     <SCONAME>RV_CHANGE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Truth Value: True/False</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

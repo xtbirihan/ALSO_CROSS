@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CORE_CO_POST</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Class for BAdI Implementation ZBI_CORE_CO_POST</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONFIRM_CONV_WT</CMPNAME>
+     <SCONAME>IT_LTAP_VB</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type: Warehouse Tasks Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONFIRM_CONV_WT</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CAPA_BINS</CMPNAME>
+     <SCONAME>ET_LAGP_CAPA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for Changing Storage Bins</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_CAPA_BINS</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPTY_BINS</CMPNAME>
+     <SCONAME>ET_LAGP_EMPTY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for Changing Storage Bins</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPTY_BINS</CMPNAME>
+     <SCONAME>IT_LTAP_VB</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type: Warehouse Tasks Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_EMPTY_BINS</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAINTAIN_MAX_CAPA</CMPNAME>
+     <SCONAME>IT_LTAP_VB</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type: Warehouse Tasks Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MAINTAIN_MAX_CAPA</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDATE_NLTYP</CMPNAME>
+     <SCONAME>ET_LGTYP_R</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage Bin: Key Fields</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDATE_NLTYP</CMPNAME>
+     <SCONAME>IT_LGTYP_R</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type: Warehouse Tasks Internal</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>VALIDATE_NLTYP</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

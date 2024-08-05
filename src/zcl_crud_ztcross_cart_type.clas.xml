@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CRUD_ZTCROSS_CART_TYPE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Managing table ZTLGTYP_ALGO</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>C_MASTER_CARTON_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Packing HU/Cartons Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_PALL_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Packing HU/Cartons Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_SHIPPING_CARTON_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Packing HU/Cartons Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>C_TOTE_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Packing HU/Cartons Type</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_BY_CARTON_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select By  LGNUM + Carton Type. Return All - HU Types Group</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SELECT_BY_HUTYPE_GROUP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select By HU Type Group. Return Spec. HU ( Carton Type )</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_CARTON_TYPE</CMPNAME>
+     <SCONAME>IV_PACK_CARTONS_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Packing HU/Cartons Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_CARTON_TYPE</CMPNAME>
+     <SCONAME>RT_CARTONS_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Pall/Cartons Types &lt;-&gt; Handling Unit Type Group</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_HUTYPE_GROUP</CMPNAME>
+     <SCONAME>IV_HUTYPGRP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handling Unit Type Group</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_HUTYPE_GROUP</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SELECT_BY_HUTYPE_GROUP</CMPNAME>
+     <SCONAME>RV_PALL_CARTON_TYPE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Packing HU/Cartons Type</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

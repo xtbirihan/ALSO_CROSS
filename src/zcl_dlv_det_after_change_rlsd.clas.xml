@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_DLV_DET_AFTER_CHANGE_RLSD</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Class for BAdI Implementation ZBI_DLV_DET_AFTER_CHANGE</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>DLV_QUERY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get delivery data</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>DLV_QUERY</CMPNAME>
+     <SCONAME>ET_HEADERS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delivery Header (PRD) for Read Operations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DLV_QUERY</CMPNAME>
+     <SCONAME>ET_ITEMS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delivery Item (PRD) for Read Operations</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DLV_QUERY</CMPNAME>
+     <SCONAME>IO_DELIVERY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object Manager for Mass Accesses to Delivery PRD Objects</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DLV_QUERY</CMPNAME>
+     <SCONAME>IT_RELEVANT_KEYS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table with Delivery GUIDs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>DLV_QUERY</CMPNAME>
+     <SCONAME>IV_DOCCAT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Document Category</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

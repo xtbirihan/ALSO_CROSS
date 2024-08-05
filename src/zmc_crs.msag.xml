@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMC_CRS</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>EWM Cross Processes messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No master data is maintained for &amp;1. Volume indicator is cleared</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>No multipl. factor is maintained for &amp;1. Volume indicator is cleared</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Quantity conversion to &amp;1 failed for &amp;2. Volume indicator is cleared</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>No fitting volume indicator was found for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Quantity conversion failed from &amp;1 to &amp;2. Volume indicator is cleared</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Error in material master for &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Qunatity conversion from &amp;1 to &amp;2 failed for material &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>&amp;1 product succesfully updated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Error occured during the call of the monitor function</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>No capacity calculation algorithms for given storage types</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Inserted/Modified &amp;1 lines in table ZTLPTYP_MAXQTY</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Deleted &amp;1 lines from table ZTLPTYP_MAXQTY</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Table ZTLPTYP_MAXQTY was not changed.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Errors Occured, see application log</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Parameter &amp;1 missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Entry for pre advised SN already exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Error while inserting serial numbers. rc = &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>No Serialnumbers inserted.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Insert successful. &amp;1 Serialnumber(s) inserted.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>ODO &amp;1 is already being processed and blocking is not possible.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Enter a valid text id</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Please fill all the key fields</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_CRS</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Enter a valid Fixed Carrier</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

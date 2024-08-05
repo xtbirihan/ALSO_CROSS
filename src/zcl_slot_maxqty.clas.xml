@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_SLOT_MAXQTY</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Statis Class for Max Slotting Quantity</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_SLOT_MAXQTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Statis Class for Max Slotting Quantity</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_MAXQTY_PLAN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Planned Maximum Quantity in Storage Type</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_SLOT_MAXQTY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Statis Class for Max Slotting Quantity</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_MAXQTY</CMPNAME>
+     <SCONAME>RV_MAXQTY_PLAN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Planned Maximum Quantity in Storage Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_MAXQTY</CMPNAME>
+     <SCONAME>IV_MAXQTY_PLAN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Planned Maximum Quantity in Storage Type</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

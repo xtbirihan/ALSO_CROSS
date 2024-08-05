@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_MDM_CONTROLLER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Master data maintenance tooling Controller</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Packspeck Create/Change</ENTRY>
+     <LENGTH>44</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Packspeck will be created/changed. Do you want to continue?</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Daily Volume</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>Daily volume entered, trigger slotting run?</ENTRY>
+     <LENGTH>86</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>005</KEY>
+     <ENTRY>Product fully maintained.</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>006</KEY>
+     <ENTRY>Do you want to save the data?</ENTRY>
+     <LENGTH>58</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>007</KEY>
+     <ENTRY>Mastercarton</ENTRY>
+     <LENGTH>22</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>008</KEY>
+     <ENTRY>Tote/MC</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Packspeck Create/Change</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Packspeck will be created/changed. Do you want to continue?</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Daily Volume</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Daily volume entered, trigger slotting run?</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Product fully maintained.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Do you want to save the data?</ENTRY>
+       <LENGTH>58</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Mastercarton</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Tote</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Packspeck Create/Change</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Packspeck will be created/changed. Do you want to continue?</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Daily Volume</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Daily volume entered, trigger slotting run?</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Product fully maintained.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Do you want to save the data?</ENTRY>
+       <LENGTH>58</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Mastercarton</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Tote</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Packspeck Create/Change</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Packspeck will be created/changed. Do you want to continue?</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Daily Volume</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Daily volume entered, trigger slotting run?</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Product fully maintained.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Do you want to save the data?</ENTRY>
+       <LENGTH>58</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Mastercarton</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Tote</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>Packspeck Create/Change</ENTRY>
+       <LENGTH>44</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>002</KEY>
+       <ENTRY>Packspeck will be created/changed. Do you want to continue?</ENTRY>
+       <LENGTH>132</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>003</KEY>
+       <ENTRY>Daily Volume</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>004</KEY>
+       <ENTRY>Daily volume entered, trigger slotting run?</ENTRY>
+       <LENGTH>86</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>005</KEY>
+       <ENTRY>Product fully maintained.</ENTRY>
+       <LENGTH>50</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>006</KEY>
+       <ENTRY>Do you want to save the data?</ENTRY>
+       <LENGTH>58</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>007</KEY>
+       <ENTRY>Mastercarton</ENTRY>
+       <LENGTH>22</LENGTH>
+      </item>
+      <item>
+       <ID>I</ID>
+       <KEY>008</KEY>
+       <ENTRY>Tote</ENTRY>
+       <LENGTH>14</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_EAN11</CMPNAME>
+     <SCONAME>IS_MIDDLE_BLOCK</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Units of Measure for Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_EAN11</CMPNAME>
+     <SCONAME>IS_MIDDLE_BLOCK</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Units of Measure for Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_EAN11</CMPNAME>
+     <SCONAME>IS_MIDDLE_BLOCK</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Units of Measure for Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_EAN11</CMPNAME>
+     <SCONAME>IS_MIDDLE_BLOCK</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Units of Measure for Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_EAN11</CMPNAME>
+     <SCONAME>IS_MIDDLE_BLOCK</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Units of Measure for Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PARAMETER_FROM_CALLER</CMPNAME>
+     <SCONAME>CV_SCANNED_VALUE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>SCAN VALUE</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PARAMETER_FROM_CALLER</CMPNAME>
+     <SCONAME>CV_SCANNED_VALUE</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>SCAN VALUE</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PARAMETER_FROM_CALLER</CMPNAME>
+     <SCONAME>CV_SCANNED_VALUE</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>SCAN VALUE</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PARAMETER_FROM_CALLER</CMPNAME>
+     <SCONAME>CV_SCANNED_VALUE</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>SCAN VALUE</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_PARAMETER_FROM_CALLER</CMPNAME>
+     <SCONAME>CV_SCANNED_VALUE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>SCAN VALUE</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MASTER_CARTON_ADDITIONAL</CMPNAME>
+     <SCONAME>CS_STORAGE_TYPE_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Storage type data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MASTER_CARTON_ADDITIONAL</CMPNAME>
+     <SCONAME>CS_STORAGE_TYPE_DATA</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Storage type data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MASTER_CARTON_ADDITIONAL</CMPNAME>
+     <SCONAME>CS_STORAGE_TYPE_DATA</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Storage type data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MASTER_CARTON_ADDITIONAL</CMPNAME>
+     <SCONAME>CS_STORAGE_TYPE_DATA</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Storage type data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MASTER_CARTON_ADDITIONAL</CMPNAME>
+     <SCONAME>CS_STORAGE_TYPE_DATA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Storage type data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MASTER_CARTON_ADDITIONAL</CMPNAME>
+     <SCONAME>CS_WAREHOUSE_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MASTER_CARTON_ADDITIONAL</CMPNAME>
+     <SCONAME>CS_WAREHOUSE_DATA</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MASTER_CARTON_ADDITIONAL</CMPNAME>
+     <SCONAME>CS_WAREHOUSE_DATA</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MASTER_CARTON_ADDITIONAL</CMPNAME>
+     <SCONAME>CS_WAREHOUSE_DATA</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MASTER_CARTON_ADDITIONAL</CMPNAME>
+     <SCONAME>CS_WAREHOUSE_DATA</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Data</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PMAT_VALUE_HELP</CMPNAME>
+     <SCONAME>CV_PMAT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Packaging Material</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_DAILY_VOLUME</CMPNAME>
+     <SCONAME>IV_SKIP_POPUP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_INDENTTAB</CMPNAME>
+     <SCONAME>IV_IDENTNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Component of the Version Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_INDENTTAB</CMPNAME>
+     <SCONAME>IV_IDENTNUM</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Component of the Version Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_INDENTTAB</CMPNAME>
+     <SCONAME>IV_IDENTNUM</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Component of the Version Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_INDENTTAB</CMPNAME>
+     <SCONAME>IV_IDENTNUM</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Component of the Version Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_INDENTTAB</CMPNAME>
+     <SCONAME>IV_IDENTNUM</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Component of the Version Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_UNITS_OF_MEASURE</CMPNAME>
+     <SCONAME>RS_RETURN</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_UNITS_OF_MEASURE</CMPNAME>
+     <SCONAME>RS_RETURN</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Return table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_UNITS_OF_MEASURE</CMPNAME>
+     <SCONAME>RS_RETURN</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Return table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_UNITS_OF_MEASURE</CMPNAME>
+     <SCONAME>RS_RETURN</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Return table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>UPDATE_UNITS_OF_MEASURE</CMPNAME>
+     <SCONAME>RS_RETURN</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Return table</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

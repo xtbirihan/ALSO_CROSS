@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Central Func. Group with global buffers</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>SAPLZFG_WHO_MAIN</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_TO_UPDATE_SHIPHUID</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Update SHIPHUID of tasks</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_PALLET_ID</PARAMETER>
+       <TYP>/SCWM/GUID_HU</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_PACKED</PARAMETER>
+       <TYP>/SCWM/TT_ORDIM_O_INT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_PALLET_ID</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_PACKED</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_WO_REBUNDLE_MAN</FUNCNAME>
+     <SHORT_TEXT>Create Warehouse Order on the Basis of Transferred TOs</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_LGNUM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/SCWM/LGNUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_KEEP_PICKHU</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_WRITE_LOG</PARAMETER>
+       <DEFAULT>ABAP_TRUE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_WO_TEMPLATE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/SCWM/S_WHO_INT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IR_TANUM</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>RSELOPTION</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_BAPIRET</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BAPIRETTAB</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_WHO</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/SCWM/TT_WHO_INT</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_LOGNO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/SCWM/DE_WHOLOGNO</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_SEVERITY</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BAPI_MTYPE</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_WO</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>/SCWM/TT_WHO_INT</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>ET_BAPIRET</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>BAPIRETTAB</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_LGNUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Warehouse Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_KEEP_PICKHU</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Take over PickHUs of old WOs</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_WRITE_LOG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Write log</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_WO_TEMPLATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>WO Structure used as Template for Some Fields (others are determined anew)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IR_TANUM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>WT Numbers to be Rebundled</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_BAPIRET</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Messages from caller</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_WHO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Table of Internal Warehouse Orders</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_LOGNO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Protokollnummer des Lagerauftrags</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_SEVERITY</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Meldungstyp: S Success, E Error, W Warning, I Info, A Abort</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_WO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabelle interner Lageraufträge</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_BAPIRET</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabelle mit BAPI Return Informationen</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

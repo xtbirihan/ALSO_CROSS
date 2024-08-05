@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZMC_ZTLPTYP_MAXQTY</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message Class for ZTLPTYP_MAXQTY capacity check BadI</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_ZTLPTYP_MAXQTY</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Check for max.qty per stor.bin type passed successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_ZTLPTYP_MAXQTY</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Check for max.qty per stor.bin type failed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_ZTLPTYP_MAXQTY</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Move of &amp;1 for product &amp;2 exceeds max. quantity by &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_ZTLPTYP_MAXQTY</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>&amp;1 allowed for bin type &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_ZTLPTYP_MAXQTY</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Storage type &amp;1 maintained in param. framework. Key &amp;2/&amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_ZTLPTYP_MAXQTY</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Storage type &amp;1 not maintained in param. framework.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_ZTLPTYP_MAXQTY</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Material &amp;1 not maintained in /SAPAPO/MATLWHST(Prod. for Location Whse).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_ZTLPTYP_MAXQTY</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Matnr./Stor.type: &amp;1/&amp;2 set as direct replenishement.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_ZTLPTYP_MAXQTY</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Total qty not maintained in pack. speck &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_ZTLPTYP_MAXQTY</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Start of DYNAMIC algorithm.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_ZTLPTYP_MAXQTY</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Product / MC higher then tote in packspec.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_ZTLPTYP_MAXQTY</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>No restrictions found for storage type &amp;1 and storage bin type &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_ZTLPTYP_MAXQTY</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Different SUoM between stock in storage bin &amp;1 and current task.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZMC_ZTLPTYP_MAXQTY</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Different SUoM between open tasks for storage bin &amp;1 and current task.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

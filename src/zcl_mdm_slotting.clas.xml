@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_MDM_SLOTTING</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>MDM Slotting</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>MDM tool sloting!</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+   </TPOOL>
+   <I18N_TPOOL>
+    <item>
+     <LANGUAGE>F</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>MDM tool sloting!</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>I</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>MDM tool sloting!</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>P</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>MDM tool sloting!</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+    <item>
+     <LANGUAGE>S</LANGUAGE>
+     <TEXTPOOL>
+      <item>
+       <ID>I</ID>
+       <KEY>001</KEY>
+       <ENTRY>MDM tool sloting!</ENTRY>
+       <LENGTH>27</LENGTH>
+      </item>
+     </TEXTPOOL>
+    </item>
+   </I18N_TPOOL>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_ENTITLED</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Party Entitled to Dispose</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_ENTITLED</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Party Entitled to Dispose</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_ENTITLED</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Party Entitled to Dispose</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_ENTITLED</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Party Entitled to Dispose</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_MATERIAL</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Material Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_MATERIAL</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Material Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_MATERIAL</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Material Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_MATERIAL</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Material Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>RUN_SLOTTING</CMPNAME>
+     <SCONAME>ET_MAT_SLOT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table Type for Table /SCWM/S_MATERIAL_CON_INTERN</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SHOW_LOG</CMPNAME>
+     <SCONAME>IV_CONTAINER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Character field of length 40</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>ES_DYNPRO_HEAD</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structure for Screen 01xx</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>ES_DYNPRO_HEAD</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Structure for Screen 01xx</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>ES_DYNPRO_HEAD</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Structure for Screen 01xx</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>ES_DYNPRO_HEAD</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Structure for Screen 01xx</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>ES_DYNPRO_HEAD</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Structure for Screen 01xx</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>ET_DYNPRO_C</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table with Screen Structure xx</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>ET_DYNPRO_C</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Table with Screen Structure xx</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>ET_DYNPRO_C</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Table with Screen Structure xx</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>ET_DYNPRO_C</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Table with Screen Structure xx</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>ET_DYNPRO_C</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Table with Screen Structure xx</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>IV_ENTITLED</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Party Entitled to Dispose</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>IV_ENTITLED</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Party Entitled to Dispose</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>IV_ENTITLED</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Party Entitled to Dispose</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>IV_ENTITLED</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Party Entitled to Dispose</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>IV_ENTITLED</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Party Entitled to Dispose</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>IV_LGNUM</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Warehouse Number/Warehouse Complex</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>IV_MATID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>IV_MATID</SCONAME>
+     <LANGU>F</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>IV_MATID</SCONAME>
+     <LANGU>I</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>IV_MATID</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SIMULATE</CMPNAME>
+     <SCONAME>IV_MATID</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Product</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
